@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fillAnimation {
+  from {
+    background-size: 100% 0%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+
+  .card_container {
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    height:600px;
+    width:100%;
+  }
+
+  .custom_card{
+      width:100%;
+      height:600px;
+      padding: 20px;
+      border-radius: 8px;
+      color: black;
+      background:white;
+      overflow: hidden;
+      position: relative;
+  }
+
+  .custom_card::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #3498db21, #2c3e5037);
+    transition: top 0.5s ease-in-out;
+  }
+
+  .custom_card:hover::before {
+    top: 0;
+  }
+
+
+.custom-card:hover{
+  animation: fillAnimation;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+@media (max-width:574px) {
+  .custom_card,.card_container{
+    height:max-content !important;
+  }
+
+  .custom_card{
+    padding: 10px !important;
+  }
+}
+
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@layer components {
+  input[type="checkbox"]:checked ~ label span svg {
+    @apply inline-flex;
+  }
+
+  .sticky .header-logo {
+    @apply py-5 lg:py-2;
+  }
+
+  .sticky .menu-scroll.active {
+    @apply opacity-70;
+  }
+
+  input#togglePlan:checked ~ .dot {
+    @apply translate-x-full;
+  }
+
+  input#checkboxLabel:checked ~ .box span {
+    @apply opacity-100;
+  }
+}
+.vertical-timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-event {
+  border: 2px solid #f6e05e; /* Adjust border color as needed */
+  background-color: #f6e05e; /* Adjust background color as needed */
+  margin-bottom: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-event img {
+  max-width: 10%;
+  height: auto;
+}
+
+.timeline-event h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.timeline-event .pt-6 {
+  padding-top: 1.5rem;
+}
+

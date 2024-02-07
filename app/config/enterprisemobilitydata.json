@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Consultation & strategy",
+    "description": [
+      "Discover impact of mobility to your business with the help of our expert consultants. We help you with mobile readiness assessment, figure out the best strategies for SOA adoption, application modernization"
+    ],
+    "image": "https://thumbs.dreamstime.com/b/consulting-expert-advice-support-service-business-concept-97202115.jpg"
+  },
+  {
+    "title": "Discovery workshop",
+    "description": [
+      "We convert an app idea into a working prototype during discovery workshop. It helps define the right strategy & tech stack for your mobile solution by considering your business requirements & technical challenges"
+    ],
+    "image": "https://www.appnovation.com/sites/default/files/2018-08/Software%20blog%20image.JPG"
+  },
+  {
+    "title": "App designing",
+    "description": [
+      "We design UI/UX of the enterprise mobile solutions by understanding the flow of your business operations to help your customers & teams accomplish their actions and tasks seamlessly."
+    ],
+    "image": "https://cdn.dribbble.com/users/1615584/screenshots/15571949/media/7e95f0fddb7957220033569815613b10.jpg?resize=400x300&vertical=center"
+  },
+  {
+    "title": "App development",
+    "description": [
+      "Mobilize your workflow by developing mobile apps for iOS, Android and Cross Platform with our skilled developers. Boost organizational efficiency by managing your operations on the go."
+    ],
+    "image": "https://www.zaigoinfotech.com/wp-content/uploads/2022/06/8-Pros-and-Cons-of-Mobile-App-Development.png"
+  },
+  {
+    "title": "Software testing",
+    "description": [
+      "Offering software testing services, we enhance the usability, performance, & quality of your mobile solutions. Our testing team identifies bugs & issues in each phase of mobile app development and resolves it in real-time."
+    ],
+    "image": "https://thumbs.dreamstime.com/b/software-testing-internet-business-technology-concept-143071525.jpg"
+  },
+  {
+    "title": "Maintenance and support",
+    "description": [
+      "We offer on-demand support for feature enhancement, bug fixes & system operations that help you reduce the TCO of your applications. We help businesses to run their applications seamlessly with ongoing maintenance & QA services."
+    ],
+    "image": "https://cdn-images-1.medium.com/max/800/0*uU6qzeHcfpJBPIqk"
+  }
+
+
+  
+]
+

@@ -1,0 +1,37 @@
+[
+    {
+        "title":"Responsive Design",
+        "decscription":"Implement a responsive design to ensure the website functions well on various devices, including desktops, tablets, and smartphones.Prioritize mobile responsiveness, given the increasing use of mobile devices.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTde4bZkhqD6TDe2Mre25QmRRNoua7O3fNtqStfTw6afjms1lRkpe1-CZKq5jwLtOkmvSA&usqp=CAU"
+    } ,
+    {
+        "title":"Professional Design and Branding",
+        "decscription":"Invest in a professional and visually appealing design that reflects the company's branding, colors, and logo.Use high-quality images, graphics, and consistent typography to enhance the overall aesthetics.",
+        "image": "data:image/png;base64,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"
+    } ,
+    {
+        "title":"Clear Navigation",
+        "decscription":"Design an intuitive and user-friendly navigation structure to help visitors easily find information.Use a clear menu and include calls-to-action to guide users through the website.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf_IeUJCjjyIJ8pcP_caJr6tkZjh_9ew0J3IPLqqLR90lGK7eRFdE4cW7zh1exp_CppK8&usqp=CAU"
+    } ,
+    {
+        "title":"Security",
+        "decscription":"Implement security best practices to protect the website from potential threats.Use HTTPS to secure data transmission, and keep software and plugins up to date.",
+        "image": "https://cdn.iconscout.com/icon/free/png-256/free-security-1772956-1508898.png"
+    } ,
+    {
+        "title":"SEO Optimization",
+        "decscription":"Optimize the website for search engines (SEO) to improve visibility in search results.Use relevant keywords, meta tags, and create a sitemap.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oubHqOTItkptI9I4sV9X6oC9llhmwOG0bdZ4pv90qMzbKz4UiiRQ751s0FLbR6p3Apk&usqp=CAU"
+    } ,
+    {
+        "title":"Analytics and Monitoring",
+        "decscription":"Integrate analytics tools (e.g., Google Analytics) to track website performance, user behavior, and traffic sources.Regularly monitor website analytics to make informed decisions for improvements",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIAERwhovtRtMp9LsZHCk0mpQiOdxWyPhFYA&usqp=CAU"
+    } ,
+    {
+        "title":"Testing",
+        "decscription":"Perform thorough testing on different browsers and devices to identify and fix any compatibility issues.Test forms, links, and functionality to ensure a smooth user experience.",
+        "image": "https://static.thenounproject.com/png/3840329-200.png"
+    }
+]
